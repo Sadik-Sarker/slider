@@ -1,0 +1,105 @@
+/* navbar start */
+.custom-navbar-nav {
+}
+.custom-navbar-nav .custom-nav-item {
+}
+.custom-navbar-nav .custom-nav-item .custom-nav-link {
+  position: relative;
+  display: inline-block;
+}
+.custom-navbar-nav .custom-nav-item .custom-nav-link::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: transparent;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.5s;
+}
+.custom-navbar-nav .custom-nav-item .custom-nav-link:hover::before {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.custom-navbar-nav .custom-nav-item .custom-nav-link::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: transparent;
+  bottom: 0;
+  right: 0;
+  transition: all linear 0.5s;
+}
+.custom-navbar-nav .custom-nav-item .custom-nav-link:hover::after {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* navbar end */
+.carousel_indicators_circle [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.second_slider {
+  background-image: url(../images/slider5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.citem_wrapper {
+  background-color: rgba(1, 1, 1, 0.5);
+  color: white;
+  padding: 70px;
+}
+.citem_wrapper h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 1.9rem;
+}
+.citem_wrapper p {
+  font-size: 20px;
+  margin: 50px 0;
+}
+.citem_wrapper button {
+  margin-bottom: 50px;
+}
+.second-carousel-indicators {
+  bottom: 40px;
+}
+.second-carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgba(212, 212, 212, 0.8);
+}
+.second-carousel-indicators .active {
+  background-color: white;
+}
+/* third slider start */
+.custom-control-prev {
+  width: 3%;
+  top: 70%;
+  left: 85%;
+}
+.custom-control-next {
+  width: 3%;
+  top: 70%;
+  right: 5%;
+}
+.third-custom-indicators {
+  right: 93%;
+  left: 5%;
+  bottom: 70%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.third-custom-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+/* third slider end */

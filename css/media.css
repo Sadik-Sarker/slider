@@ -1,0 +1,110 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .citem_wrapper {
+    padding: 50px 70px;
+  }
+  .citem_wrapper h1 {
+    font-size: 25px;
+  }
+  .citem_wrapper p {
+    font-size: 17px;
+    margin: 40px 0;
+  }
+  .citem_wrapper button {
+    margin-bottom: 20px;
+  }
+  .second-carousel-indicators {
+    bottom: 20px;
+  }
+  .second-carousel-indicators [data-bs-target] {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+  }
+  /* third slider start */
+  .third-custom-indicators {
+    bottom: 50%;
+  }
+  .third-custom-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+  }
+  /* third slider end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .citem_wrapper {
+    padding: 50px;
+  }
+  .citem_wrapper h1 {
+    font-size: 25px;
+  }
+  .citem_wrapper p {
+    font-size: 17px;
+    margin: 40px 0;
+  }
+  .citem_wrapper button {
+    margin-bottom: 20px;
+  }
+  .second-carousel-indicators {
+    bottom: 20px;
+  }
+  .second-carousel-indicators [data-bs-target] {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+  }
+  /* third slider start */
+  .third-custom-indicators {
+    bottom: 60%;
+  }
+  .third-custom-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+  }
+  /* third slider end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .citem_wrapper {
+    padding: 60px;
+  }
+  .citem_wrapper h1 {
+    font-size: 25px;
+  }
+  .citem_wrapper p {
+    font-size: 18px;
+    margin: 50px 0;
+  }
+  .citem_wrapper button {
+    margin-bottom: 40px;
+  }
+  .second-carousel-indicators {
+    bottom: 30px;
+  }
+  .second-carousel-indicators [data-bs-target] {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+  }
+  /* third slider start */
+  .third-custom-indicators {
+    bottom: 60%;
+  }
+  /* third slider end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/* X-Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* XX-large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
